@@ -1,5 +1,3 @@
-package POB3.Atv1;
-
 import java.util.Scanner;
 
 public class Ex01{
@@ -12,5 +10,6 @@ public class Ex01{
         if(idade >= 18){
         System.out.print("Maior de idade!");
         }
+        leitor.close();
     }
 }

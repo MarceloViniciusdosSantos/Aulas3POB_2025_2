@@ -1,5 +1,3 @@
-package POB3.Atv1;
-
 import java.util.Scanner;
 public class Ex05 {
     public static void main(String[] args) {
@@ -13,5 +11,6 @@ public class Ex05 {
         } else{
             System.out.println("Inapto a ser eleito!!");
         }
+        leitor.close();
     }
 }

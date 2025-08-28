@@ -1,4 +1,3 @@
-package POB3.Atv1;
 import java.util.Scanner;
 public class Ex02 {
     public static void main(String[] args) {
@@ -12,5 +11,6 @@ public class Ex02 {
         } else{
             System.out.println("Menor idade!!");
         }
+        leitor.close();
     }
 }

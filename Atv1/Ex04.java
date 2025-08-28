@@ -1,5 +1,3 @@
-package POB3.Atv1;
-
 import java.util.Scanner;
 
 public class Ex04 {
@@ -7,13 +5,14 @@ public class Ex04 {
         Scanner leitor = new Scanner(System.in);
 
         System.out.print("Digite um número :");
-        int num1 = leitor.nextInt();
+        int num = leitor.nextInt();
 
-       if((num1%2) == 0){
+       if((num%2) == 0){
         System.out.print("O numero é par!!");
        }
        else{
-        System.err.print("O número é ímpar!!");
+        System.out.print("O número é ímpar!!");
        }
+       leitor.close();
     }
 }

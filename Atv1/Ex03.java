@@ -1,5 +1,3 @@
-package POB3.Atv1;
-
 import java.util.Scanner;
 
 public class Ex03 {
@@ -20,5 +18,6 @@ public class Ex03 {
         else{
             System.out.print("Os números são iguais!!");
         }
+        leitor.close();
     }
 }
