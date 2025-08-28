@@ -16,7 +16,7 @@ public class Ex12 {
         if((lado1 >=(lado2+lado3)) || (lado2>=(lado1+lado3)) || (lado3>=(lado1+lado2))){
             System.out.print("Não forma um triângulo! ");
         }
-        else{ if((lado1 == lado2) && (lado2== lado3)){
+        else if((lado1 == lado2) && (lado2== lado3)){
             System.out.print("Forma um triângulo Equilatéro!");
 
         } else if ((lado1 == lado2) || (lado2 == lado3) || (lado1 == lado3)){
@@ -24,7 +24,6 @@ public class Ex12 {
         } else{
             System.out.print("Forma um triângulo Escaleno");
         }
-    }
         
     leitor.close();
         }
