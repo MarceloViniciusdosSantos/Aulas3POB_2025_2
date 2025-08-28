@@ -1,3 +1,5 @@
+package POB3.Atv1; 
+
 import java.util.Scanner;
 
 public class Ex11 {
