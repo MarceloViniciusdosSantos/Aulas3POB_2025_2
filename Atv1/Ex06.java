@@ -1,4 +1,4 @@
-//package POB3.Atv1;
+package POB3.Atv1;
 
 import java.util.Scanner;
 import java.text.DecimalFormat;
