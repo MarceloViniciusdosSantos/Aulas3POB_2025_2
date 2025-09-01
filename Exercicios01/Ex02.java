@@ -10,7 +10,7 @@ public class Ex02 {
         System.out.print("Entre com o raio: ");
         Double raio = leitor.nextDouble();
 
-        double area = (raio*raio) * 3.14159;
+        double area = (Math.pow(raio, 2)) * 3.14159; // fazendo r² * π
 
         System.out.print("Área do círculo: " + df.format(area));
 
