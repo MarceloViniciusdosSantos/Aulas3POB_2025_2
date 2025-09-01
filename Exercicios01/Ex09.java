@@ -11,6 +11,7 @@ public static void main(String[] args) {
     System.out.print("Digite o valor em real: ");
     double real = leitor.nextDouble();
 
+        //Dolár valendo 5,45 reais no momento que o código foi feito
     double dolar = real / 5.45;
 
     System.out.println("Valor em dolar: " + df.format(dolar));
