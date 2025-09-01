@@ -16,6 +16,7 @@ public class Ex10 {
     System.out.print("Digite a segunda coordenada: ");
     double x2 = leitor.nextDouble();
     double y2 = leitor.nextDouble();
+                
     double d1 = x2 - x1;
     double d2 = y2 - y1;    
 
