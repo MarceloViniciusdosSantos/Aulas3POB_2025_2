@@ -20,10 +20,10 @@ public class Ex10 {
     double d1 = x2 - x1;
     double d2 = y2 - y1;    
 
-    double potencia1 = Math.pow(d1, 2);
-    double potencia2 = Math.pow(d2, 2);
+    double potencia1 = Math.pow(d1, 2); // (x2 - x1)²
+    double potencia2 = Math.pow(d2, 2); // (y2 - y1)²
 
-    double D = Math.sqrt(potencia1 + potencia2);
+    double D = Math.sqrt(potencia1 + potencia2); 
 
     System.out.println("Distancia: " + df.format(D) + " metros");
 
