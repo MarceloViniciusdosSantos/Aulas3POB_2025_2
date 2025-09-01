@@ -10,8 +10,8 @@ public static void main(String[] args) {
 
     System.out.print("Entre com o raio: ");
     double raio = leitor.nextInt();
-
-    double Rpotencia = Math.pow(raio, 3);
+                
+    double Rpotencia = Math.pow(raio, 3); //fazendo r³
 
     double pi = 3.14159;
 
