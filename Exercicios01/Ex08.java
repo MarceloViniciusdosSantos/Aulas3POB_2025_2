@@ -11,11 +11,11 @@ public static void main(String[] args) {
     System.out.print("Entre com o raio: ");
     double raio = leitor.nextInt();
                 
-    double Rpotencia = Math.pow(raio, 3); //fazendo r³
+    double raioPotencia = Math.pow(raio, 3); //fazendo r³
 
     double pi = 3.14159;
 
-    double volume = pi * Rpotencia * 4/3;
+    double volume = pi * raioPotencia * 4/3;
 
     System.out.println("Volume da esfera: " + df.format(volume));
     leitor.close();
