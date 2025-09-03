@@ -1,4 +1,6 @@
 /*Soma de Dois números */
+package POB3.Exercicios01;
+
 import java.util.Scanner;
 
 public class Ex01 {
