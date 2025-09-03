@@ -1,4 +1,6 @@
 /*Conversão de temperatura*/
+package POB3.Exercicios01;
+
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
