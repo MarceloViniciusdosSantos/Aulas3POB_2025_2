@@ -1,4 +1,6 @@
 /*Perimetro e área de um retângulo*/
+package POB3.Exercicios01;
+
 import java.util.Scanner;
 
 public class Ex07 {
